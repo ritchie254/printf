@@ -16,5 +16,7 @@ Equal as possible == no more than a 40/60 contribution from the respective partn
 
 ## Note
 We realize this may prove a challenge at times, and that’s ok! It’s an education in and of itself that will prepare you for your future careers. Remember to follow the Framework, and it’ll all work out.Learning is key.
+## Authors of the Repository
+Nana Olivia and Richard Samo
 
 Happy Coding!
