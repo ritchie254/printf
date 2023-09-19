@@ -1,0 +1,31 @@
+**NAME**
+       printf, fprintf, dprintf, sprintf, snprintf, vprintf, vfprintf, vdprintf, vsprintf, vsnprintf - formatted output conversion
+
+**SYNOPSIS**
+       #include <stdio.h>
+
+       int printf(const char *format, ...);
+       int fprintf(FILE *stream, const char *format, ...);
+       int dprintf(int fd, const char *format, ...);
+       int sprintf(char *str, const char *format, ...);
+       int snprintf(char *str, size_t size, const char *format, ...);
+
+       #include <stdarg.h>
+
+       int vprintf(const char *format, va_list ap);
+       int vfprintf(FILE *stream, const char *format, va_list ap);
+       int vdprintf(int fd, const char *format, va_list ap);
+       int vsprintf(char *str, const char *format, va_list ap);
+       int vsnprintf(char *str, size_t size, const char *format, va_list ap);
+
+   Feature Test Macro Requirements for glibc (see feature_test_macros(7)):
+
+       snprintf(), vsnprintf():
+           _XOPEN_SOURCE >= 500 || _ISOC99_SOURCE ||
+               || /* Glibc versions <= 2.19: */ _BSD_SOURCE
+
+       dprintf(), vdprintf():
+           Since glibc 2.10:
+               _POSIX_C_SOURCE >= 200809L
+           Before glibc 2.10:
+               _GNU_SOURCE
