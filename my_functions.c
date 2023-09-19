@@ -2,7 +2,7 @@
 
 /**
  * printf_percent - prints the char 37.
- *which is the percent(%) sign
+ *which is the percentage(%) sign
  * Return: 1.
  */
 int printf_percent(void)
@@ -26,7 +26,7 @@ int print_char(va_list value)
 }
 
 /**
- * print_string - print a string to standard output.
+ * print_string - prints string to standard output.
  * @val: argumen t.
  * Return: the length of the string.
  */

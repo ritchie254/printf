@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _printf - function to work as standdad function printf
+  * _printf - function that works as standard function printf
   *@format: string
   *
   *Return: length of string

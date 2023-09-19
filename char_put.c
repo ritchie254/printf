@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * char_put - functio to write a single character
+  * char_put - function that  writes a single character
   *@c: character input
   *
   *Return: interger count
