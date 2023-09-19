@@ -15,6 +15,6 @@ It means that both partners need to have equal as possible git commits to the ma
 Equal as possible == no more than a 40/60 contribution from the respective partner’s user name (this will be different in the off chance of a third member)
 
 ## Note
-We realize this may prove a challenge at times, and that’s ok! It’s an education in and of itself that will prepare you for your future careers. Remember to follow the Framework, and it’ll all work out.
+We realize this may prove a challenge at times, and that’s ok! It’s an education in and of itself that will prepare you for your future careers. Remember to follow the Framework, and it’ll all work out.Learning is key.
 
 Happy Coding!
