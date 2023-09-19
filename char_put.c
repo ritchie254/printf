@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
   * char_put - functio to write a single character

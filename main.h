@@ -35,5 +35,7 @@ int print_HEX(va_list val);
 int print_HEX_aux(unsigned int num);
 int print_exclusive_string(va_list val);
 int print_pointer(va_list val);
+int _strlen(char *s);
+int _strlenc(const char *s);
 
 #endif
