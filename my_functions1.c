@@ -51,7 +51,7 @@ int printf_rot13(va_list args)
 			}
 		}
 		if (!k)
-		{
+	{
 			char_put(s[i]);
 			counter++;
 		}

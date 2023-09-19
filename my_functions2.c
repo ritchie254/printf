@@ -68,3 +68,31 @@ int print_pointer(va_list val)
 	b = print_hex_aux(a);
 	return (b + 2);
 }
+
+/**
+ * _strlen - lenght of a string.
+ * @s: Type char pointer
+ * Return: c.
+ */
+int _strlen(char *s)
+{
+	int c;
+
+	for (c = 0; s[c] != 0; c++)
+		;
+	return (c);
+
+}
+/**
+ * _strlenc - Strlen
+ * @s: Type char pointer
+ * Return: c
+ */
+int _strlenc(const char *s)
+{
+	int c;
+
+	for (c = 0; s[c] != 0; c++)
+		;
+	return (c);
+}
