@@ -93,7 +93,7 @@ int print_binary(va_list val)
 }
 
 /**
- * print_unsigned - prints integer
+ * print_unsigned - prints an integer
  * @args: argument to print
  * Return: number of characters printed
  */
